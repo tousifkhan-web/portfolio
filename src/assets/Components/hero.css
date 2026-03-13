@@ -1,0 +1,78 @@
+.hero {
+  position: relative;
+}
+.hero .container {
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+}
+
+.hero .txt-wrap {
+  max-width: 70%;
+  z-index: 2;
+  background: none;
+}
+
+.hero .txt-wrap .hc2 {
+  font-family: var(--caveat);
+  color: var(--white);
+  font-weight: 400;
+  font-style: italic;
+}
+
+.hero .txt-wrap .hc1 span {
+  color: var(--primary-color);
+}
+
+.hero .txt-wrap .social-link a {
+  display: inline-block;
+  color: var(--white);
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero .txt-wrap .social-link a:hover {
+  color: var(--primary-color);
+}
+
+.hero .container .deco1 {
+  position: absolute;
+  top: 80px;
+  right: 10%;
+}
+
+.hero .deco2 {
+  position: absolute;
+  right: -200px;
+  bottom: -100px;
+  z-index: 1;
+  opacity: 80%;
+}
+
+.hero .deco2 img {
+  width: 500px;
+}
+
+.hero .container .deco1 img {
+  height: 180px;
+  background: transparent;
+}
+
+@media (max-width: 768px) {
+  .hero .txt-wrap {
+    max-width: 100%;
+  }
+  .hero .container .deco1 {
+    top: 80px;
+    right: 5%;
+  }
+  .hero .container .deco1 img {
+    height: 150px;
+    background: transparent;
+  }
+}
+@media (max-width: 575.98px) {
+  .hero .txt-wrap .hc1 span {
+    display: block;
+  }
+}

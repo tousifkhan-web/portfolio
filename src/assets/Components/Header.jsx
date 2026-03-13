@@ -3,11 +3,11 @@ import "./header.css";
 function Header() {
   return (
     <>
-      <header className="Container-fluid">
+      <header className="container-fluid">
         <nav className="navbar navbar-dark navbar-expand-lg fixed-top">
           <div className="container">
-            <a className="navbar-brand" href="#">
-              Offcanvas dark navbar
+            <a className="logo" href="#">
+              Logo
             </a>
             <button
               className="navbar-toggler"
