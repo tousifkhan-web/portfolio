@@ -1,4 +1,17 @@
 .about {
   margin-top: 100px;
   margin-bottom: 100px;
+  position: relative;
+}
+
+.about .contact-btn {
+  background-color: var(--primary-color);
+  padding: 12px 30px;
+  border-radius: 8px;
+  color: var(--white);
+  display: inline-block;
+}
+
+.about .row {
+  margin-top: 80px;
 }

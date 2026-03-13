@@ -4,7 +4,7 @@ function Header() {
   return (
     <>
       <header className="container-fluid">
-        <nav className="navbar navbar-dark navbar-expand-lg fixed-top">
+        <nav className="navbar navbar-dark navbar-expand-lg ">
           <div className="container">
             <a className="logo" href="#">
               Logo
@@ -22,6 +22,7 @@ function Header() {
             <div
               className="offcanvas offcanvas-end text-bg-dark"
               tabIndex="-1"
+              data-bs-scroll="false"
               id="offcanvasDarkNavbar"
               aria-labelledby="offcanvasDarkNavbarLabel"
             >

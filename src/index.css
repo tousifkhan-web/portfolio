@@ -1,5 +1,4 @@
 * {
-  overflow: hidden;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -9,6 +8,7 @@ html,
 body {
   scroll-behavior: smooth;
   background-color: var(--bg-color);
+  overflow-x: hidden;
 }
 
 a,
